@@ -4,7 +4,7 @@ Repositorio de actividades y proyectos del módulo de Programación multimedia y
 
 ## Datos
 
-- Alumno/a:
+- Alumno/a: Javier Reyes Perdomo
 - Curso: 2.º DAM
 - Curso académico: 2026/2027
 
