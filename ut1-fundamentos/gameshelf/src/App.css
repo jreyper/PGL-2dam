@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #24204a 0%, #10111f 45%, #090a12 100%);
+  color: #f5f5ff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+/* Título */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+  font-size: 52px;
+  color: #c4b5fd;
+  letter-spacing: 3px;
+  text-shadow: 0 0 20px #8b5cf6;
+}
+
+.header p {
+  color: #c2c3df;
+  font-size: 18px;
+}
+
+/* Botones de los filtros */
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 13px 22px;
+  border: 1px solid #6255a8;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #29264b, #1b1b30);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+  border-color: #c4b5fd;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px #7c3aed55;
+}
+
+button.active {
+  background: linear-gradient(135deg, #8b5cf6, #6366f1);
+  border-color: #c4b5fd;
+  box-shadow: 0 0 15px #8b5cf655;
+}
+
+.counter {
+  margin-bottom: 22px;
+  color: #c4b5fd;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Catálogo */
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Tarjetas de videojuegos */
+.card {
+  padding: 24px;
+  background: linear-gradient(145deg, #22213d, #171727);
+  border: 1px solid #39365d;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px #00000030;
+  transition: 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #a78bfa;
+  box-shadow: 0 12px 28px #8b5cf633;
+  background: linear-gradient(145deg, #2c2850, #1c1b32);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #c4b5fd;
+  font-size: 22px;
+}
+
+.card p {
+  color: #d6d5ed;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .catalog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Móviles */
+@media (max-width: 600px) {
+  .app {
+    padding: 25px 16px;
+  }
+
+  .header h1 {
+    font-size: 36px;
+  }
+
+  .catalog {
+    grid-template-columns: 1fr;
+  }
+}
