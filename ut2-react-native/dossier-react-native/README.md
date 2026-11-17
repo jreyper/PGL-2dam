@@ -1,56 +1,65 @@
-# Welcome to your Expo app 👋
+# Dossier de React Native con Expo y Android Studio
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Práctica 1. Hola mundo
+Creación del proyecto inicial con Expo y desarrollo de una pantalla básica utilizando `View` y `Text` centrados con Flexbox sobre fondo rosa.
 
-## Get started
+![cap1](/assets/img/cap1.png)
 
-1. Install dependencies
+### Práctica 2. Contador con dos botones
+Implemento un estado con `useState` para un contador con dos botones (`Button`) para incrementar y decrementar su valor dentro de un contenedor.
 
-   ```bash
-   npm install
-   ```
+![cap2](/assets/img/cap2.png)
+![cap3](/assets/img/cap3.png)
 
-2. Start the app
+### Práctica 3. InicioScreen y estilos separados
+Separo las pantallas en la carpeta `src/screens/` (`HolaMundoScreen.tsx` e `InicioScreen.tsx`) y extraigo todos los estilos mediante `StyleSheet.create()`.
 
-   ```bash
-   npx expo start
-   ```
+![cap4](/assets/img/cap4.png)
 
-In the output, you'll find options to open the app in a
+### Práctica 4. Tres cajas
+Creo el componente `Caja.tsx` en TypeScript y renderizo tres cajas de 100×100 dentro de un contenedor con `flex: 1`.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![cap5](/assets/img/cap5.png)
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Práctica 5. Modificar flex dinámicamente
+Uso los estados independientes para modificar la propiedad `flex` de cada caja con botones de incremento y decremento, repartiendo el espacio disponible en la pantalla.
 
-## Get a fresh project
+![cap6](/assets/img/cap6.png)
 
-When you're ready, run:
+### Práctica 6. Sustituir los botones
+Sustituyo los botones por `TouchableHighlight` (mostrando una alerta al incrementar) y `TouchableOpacity` (al decrementar) para mejorar el aspecto visual.
 
-```bash
-npm run reset-project
-```
+![cap7](/assets/img/cap7.png)
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+### Práctica 7. Nombre y estilos personalizados
+Amplío el componente de caja para recibir estilos externos mediante `StyleProp<ViewStyle>` y aplico bordes y esquinas personalizadas a las cajas.
 
-### Other setup steps
+![cap8](/assets/img/cap8.png)
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Práctica 8. Círculos dinámicos
+Genero círculos con colores RGB aleatorios y controles táctiles para alternar entre `flexWrap` (`wrap`/`nowrap`) y `flexDirection` (`row`/`column`).
+Añado circulos:
+![cap9](/assets/img/cap9.png)
+Con nowrap:
+![cap10](/assets/img/cap10.png)
+En Column:
+![cap11](/assets/img/cap11.png)
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+### Práctica 9. Distribución, alineación e imágenes
+Tengo control dinámico de `justifyContent` mediante un `TextInput` validado y de `alignItems` con botones, distribuyendo tres imágenes.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+![cap12](/assets/img/cap12.png)
 
-## Join the community
+### Práctica 9.1. Imagen aleatoria
+Se eligen imagenes aleatorias locales definidas en una colección estática mediante `Math.random()` y se actualiza en pantalla usando `useState`.
 
-Join our community of developers creating universal apps.
+![cap13](/assets/img/cap13.png)
+![cap14](/assets/img/cap14.png)
+![cap15](/assets/img/cap15.png)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Práctica 10. Calculadora
+Desarrollo una calculadora funcional utilizando `SafeAreaView`, botones (`TeclaCalculadora.tsx`), distribución por filas con Flexbox y operaciones gestionadas mediante estados sin usar `eval()`.
+
+![cap16](/assets/img/cap16.png)
+
