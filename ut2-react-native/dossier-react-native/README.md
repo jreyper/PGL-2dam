@@ -3,7 +3,7 @@
 ### Práctica 1. Hola mundo
 Creación del proyecto inicial con Expo y desarrollo de una pantalla básica utilizando `View` y `Text` centrados con Flexbox sobre fondo rosa.
 
-![cap1](/assets/img/cap1.png)
+![cap1](assets/img/cap1.png)
 
 ### Práctica 2. Contador con dos botones
 Implemento un estado con `useState` para un contador con dos botones (`Button`) para incrementar y decrementar su valor dentro de un contenedor.
@@ -63,3 +63,13 @@ Desarrollo una calculadora funcional utilizando `SafeAreaView`, botones (`TeclaC
 
 ![cap16](/assets/img/cap16.png)
 
+### Práctica 11. Hook personalizado para la calculadora
+Extraigo las variables y toda la lógica de la calculadora a un hook (`src/hooks/useCalculadora.ts`) y separo el funcionamiento interno de la interfaz gráfica y reutilizo `TeclaCalculadora.tsx`.
+
+![cap17](/assets/img/cap17.png)
+
+### Práctica 12. Color aleatorio con confirmación
+Creo una pantalla con un botón que selecciona un color aleatorio de un array y solicita confirmación mediante `Alert.alert()`. Si el usuario pulsa «Aceptar», se actualiza el estado del color de fondo y si cancela, se mantiene el anterior.
+
+![cap18](/assets/img/cap18.png)
+![cap19](/assets/img/cap19.png)
