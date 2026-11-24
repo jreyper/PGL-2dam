@@ -15,6 +15,9 @@ export default function RootLayout() {
       <Stack.Screen name="practica09" options={{ title: 'Práctica 9 · Alineación e Imágenes' }} />
       <Stack.Screen name="practica09_1" options={{ title: 'Práctica 9.1 · Imagen Aleatoria' }} />
       <Stack.Screen name="practica10" options={{ title: 'Práctica 10 · Calculadora' }} />
+      <Stack.Screen name="practica11" options={{ title: 'Práctica 11 · Hook personalizado calculadora' }} />
+      <Stack.Screen name="practica12" options={{ title: 'Práctica 12 · Color aleatorio' }} />
+      <Stack.Screen name="practica13" options={{ title: 'Práctica 13 · Introducir el color' }} />
     </Stack>
   );
 }

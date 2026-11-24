@@ -73,3 +73,9 @@ Creo una pantalla con un botón que selecciona un color aleatorio de un array y 
 
 ![cap18](assets/img/cap18.png)
 ![cap19](assets/img/cap19.png)
+
+### Práctica 13. Introducir el color
+Creo una pantalla en la que puedes escribir un color. Si el usuario pulsa «Aceptar» y el valor es válido (comprobado con `processColor()`), se actualiza el fondo de la pantalla; si cancela o el color no es válido, se mantiene el anterior.
+
+![cap20](assets/img/cap20.png)
+![cap21](assets/img/cap21.png)
