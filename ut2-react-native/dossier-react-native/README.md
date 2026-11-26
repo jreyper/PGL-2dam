@@ -79,3 +79,24 @@ Creo una pantalla en la que puedes escribir un color. Si el usuario pulsa «Acep
 
 ![cap20](assets/img/cap20.png)
 ![cap21](assets/img/cap21.png)
+
+### Práctica 14. Borde activado por Switch
+Creo una pantalla con un control `Switch` y el indicador (`thumbColor`) es marrón cuando está desactivado y naranja cuando está activado. Al activarlo aparece un borde rojo alrededor de la pantalla, y al desactivarlo desaparece.
+
+![cap22](assets/img/cap22.png)
+![cap23](assets/img/cap23.png)
+
+### Práctica 15. Completar el formulario
+Creo un formulario controlado con `useState` para recoger el nombre, la edad, si está casado y si está jubilado, actualizo cada campo mediante la función `cambiarCampo`. Al pulsar «Enviar», se valida que el nombre no esté vacío y que la edad sea numérica antes de mostrar el resumen final en pantalla.
+
+![cap24](assets/img/cap24.png)
+
+### Práctica 16. Lista de productos
+Creo una pantalla que utiliza `FlatList` para mostrar un listado de productos con su nombre, precio y stock, sin separadores entre elementos. Se emplea el índice (`index % 2`) en `renderItem` para alternar el color de fondo entre filas pares e impares, junto con una cabecera centrada y de mayor tamaño («Lista Productos»).
+
+![cap25](assets/img/cap25.png)
+
+### Práctica 17. Tarjetas para calcular el IMC
+Creo el componente `CardPersona.tsx` con los campos de nombre, altura y peso para calcular automáticamente el IMC validando que no se divida entre cero. En la pantalla se gestiona una lista de identificadores con un botón «+» para añadir nuevas tarjetas y un botón en cada tarjeta para eliminarla mediante una función recibida por `props`.
+
+![cap26](assets/img/cap26.png)

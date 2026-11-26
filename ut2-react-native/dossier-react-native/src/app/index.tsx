@@ -20,6 +20,12 @@ export default function Index() {
       <Link href="/practica11" style={styles.enlace}>Práctica 11 · CalculadoraHook</Link>
       <Link href="/practica12" style={styles.enlace}>Práctica 12 · Color aleatorio</Link>
       <Link href="/practica13" style={styles.enlace}>Práctica 13 · Introducir el color</Link>
+      <Link href="/practica14" style={styles.enlace}>Práctica 14 · Borde activado por switch</Link>
+      <Link href="/practica15" style={styles.enlace}>Práctica 15 · Completar formulario</Link>
+      <Link href="/practica16" style={styles.enlace}>Práctica 16 · Lista de productos</Link>
+      <Link href="/practica17" style={styles.enlace}>Práctica 17 · Tarjetas para calcular el IMC</Link>
+      <Link href="/practica18" style={styles.enlace}>Práctica 18 · Diario de emociones</Link>
+      <Link href="/practica19" style={styles.enlace}>Práctica 19 · Insertar emoticonos</Link>
     </ScrollView>
   );
 }

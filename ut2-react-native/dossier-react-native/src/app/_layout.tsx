@@ -18,6 +18,12 @@ export default function RootLayout() {
       <Stack.Screen name="practica11" options={{ title: 'Práctica 11 · Hook personalizado calculadora' }} />
       <Stack.Screen name="practica12" options={{ title: 'Práctica 12 · Color aleatorio' }} />
       <Stack.Screen name="practica13" options={{ title: 'Práctica 13 · Introducir el color' }} />
+      <Stack.Screen name="practica14" options={{ title: 'Práctica 14 · Borde activado por switch' }} />
+      <Stack.Screen name="practica15" options={{ title: 'Práctica 15 · Completar formulario' }} />
+      <Stack.Screen name="practica16" options={{ title: 'Práctica 16 · Lista de productos' }} />
+      <Stack.Screen name="practica17" options={{ title: 'Práctica 17 · Tarjetas para calcular el IMC' }} />
+      <Stack.Screen name="practica18" options={{ title: 'Práctica 18 · Diario de emociones' }} />
+      <Stack.Screen name="practica19" options={{ title: 'Práctica 19 · Insertar emoticonos' }} />
     </Stack>
   );
 }
