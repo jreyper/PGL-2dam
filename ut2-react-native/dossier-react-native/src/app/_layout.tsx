@@ -24,6 +24,8 @@ export default function RootLayout() {
       <Stack.Screen name="practica17" options={{ title: 'Práctica 17 · Tarjetas para calcular el IMC' }} />
       <Stack.Screen name="practica18" options={{ title: 'Práctica 18 · Diario de emociones' }} />
       <Stack.Screen name="practica19" options={{ title: 'Práctica 19 · Insertar emoticonos' }} />
+      <Stack.Screen name="stack/p20" options={{ title: 'Práctica 20 · Primer Stack' }} />
+      <Stack.Screen name="stack/p21" options={{ title: 'Práctica 21 · Stack con tres pantallas' }} />
     </Stack>
   );
 }

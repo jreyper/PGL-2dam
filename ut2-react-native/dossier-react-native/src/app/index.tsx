@@ -26,6 +26,8 @@ export default function Index() {
       <Link href="/practica17" style={styles.enlace}>Práctica 17 · Tarjetas para calcular el IMC</Link>
       <Link href="/practica18" style={styles.enlace}>Práctica 18 · Diario de emociones</Link>
       <Link href="/practica19" style={styles.enlace}>Práctica 19 · Insertar emoticonos</Link>
+      <Link href="/stack/p20" style={styles.enlace}>Práctica 20 · Primer Stack</Link>
+      <Link href="/stack/p21" style={styles.enlace}>Práctica 21 · Stack con tres pantallas</Link>
     </ScrollView>
   );
 }

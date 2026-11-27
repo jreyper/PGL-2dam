@@ -100,3 +100,27 @@ Creo una pantalla que utiliza `FlatList` para mostrar un listado de productos co
 Creo el componente `CardPersona.tsx` con los campos de nombre, altura y peso para calcular automáticamente el IMC validando que no se divida entre cero. En la pantalla se gestiona una lista de identificadores con un botón «+» para añadir nuevas tarjetas y un botón en cada tarjeta para eliminarla mediante una función recibida por `props`.
 
 ![cap26](assets/img/cap26.png)
+
+### Práctica 18. Diario de emociones
+Creo el componente `DiarioEmocionesScreen.tsx` con un `TextInput`, un botón y un `FlatList` para mostrar el historial de entradas almacenadas en un estado de tipo array. Al guardar, registro la fecha y hora exacta con segundos (`toLocaleTimeString()`) y evalúo el texto con `.includes()` para asignar dinámicamente un icono sonriente (`:-)`), triste (`:-(`) o neutral.
+
+![cap27](assets/img/cap27.png)
+
+### Práctica 19. Insertar emoticonos en el texto
+Creo la pantalla `InsertarEmoticonosScreen.tsx` con una barra superior de botones táctiles (`TouchableOpacity`) encima de un `TextInput` controlado. Al pulsar cada icono, concateno su secuencia de texto correspondiente al final del contenido actual utilizando la actualización funcional del estado `setTexto((actual) => actual + emoji)`.
+
+![cap28](assets/img/cap28.png)
+
+### Práctica 20. Primer Stack
+Organizo las pantallas en la carpeta `src/app/stack/p20/` definiendo un navegador `Stack` en su propio `_layout.tsx` y manteniendo `src/app/index.tsx` intacto como índice general. Desde la pantalla principal (`index.tsx`) navego hacia `detalle.tsx` mediante el componente `<Link>` y regreso a la pantalla anterior utilizando `router.back()`.
+
+![cap29](assets/img/cap29.png)
+![cap30](assets/img/cap30.png)
+
+
+### Práctica 21. Stack con tres pantallas
+Configuro `Stack` en `src/app/stack/p21/` con tres pantallas (`index.tsx`, `segunda.tsx` y `tercera.tsx`). Utilizo `router.push()` para navegar entre ellas enviando el parámetro `userName` en el objeto `params`, el cual recupero y muestro en la tercera pantalla mediante el hook `useLocalSearchParams()`.
+
+![cap31](assets/img/cap31.png)
+![cap32](assets/img/cap32.png)
+![cap33](assets/img/cap33.png)
